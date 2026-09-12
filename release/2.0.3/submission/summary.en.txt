@@ -1,0 +1,1 @@
+Requires SoloPlay; supports Realms. Select native Mortis Trials Buffs from the talent tree, filtered by class and skills. Fixes the unclosable picker and lingering button when disabled in DMF, with clean disable/re-enable behavior and saved selections preserved.

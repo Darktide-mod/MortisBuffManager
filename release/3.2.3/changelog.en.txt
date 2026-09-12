@@ -1,0 +1,74 @@
+3.2.3
+- Replace /mbm with /mortisbuffs for the Mortis selector. The old short command is no longer registered as an alias, avoiding collisions with other mods.
+- Update English, Simplified Chinese and Traditional Chinese DMF hints and current usage documentation. Existing optional key bindings still open the same page.
+- Command, workspace, lifecycle and release checks passed. Debug remains disabled and hidden.
+
+3.2.2
+- Cache the sorted editor catalog until the saved selection, route or character eligibility changes.
+- Format full native Buff descriptions when their details are displayed instead of formatting the entire catalog on first opening.
+- Reuse the immutable editor template; widget content and styles remain private to each view.
+- Avoid duplicate opening snapshots and repeated navigation list resolution.
+- Offline editor, native reward, runtime, quota, disable and host/client checks passed. Debug remains disabled and hidden; live opening latency has not been measured.
+
+3.2.1
+- Display automatically granted Buffs using the same card widgets, native icons, frame, rank labels and full descriptions as interactive choices.
+- Show each round's automatic awards together for two seconds after the selection animation. Include the final single candidate even when no picker is needed.
+- Keep the following choice hidden during this presentation and preserve its full sixty-second selection window, including queued rewards and suspended player timers.
+- Includes the runtime optimizations documented below. Debug remains disabled and hidden; offline regressions passed.
+
+3.2.0
+- Stop competitive kill counting and hide the progress indicator as soon as the reward quota is earned. Already queued choices still resolve; raising the quota resumes eligible counting.
+- Cache unchanged character eligibility, native reward pools, selected Buff lists and host HUD snapshots. Avoid profile ability scans when live abilities are available.
+- Reconcile rewards and changed builds promptly, with a five-second fallback audit for unchanged builds. Preserve native Buff templates, effects, stacking and IDs; retain native Survival pool safeguards.
+- Send changed host state promptly instead of broadcasting identical full snapshots twice per second. Keep two-second resynchronization, disconnect leases, choice retries and independent player queues. Correct the client disable packet protocol.
+- Use native route names, route descriptions, Buff rank labels and formatted numeric effects. Compact the cards, centre two-option choices and expand only when complete descriptions need space.
+- Add a brighter selection flash, raised selected card and dimmed alternatives. Show automatic route rewards and the final single candidate with their full effect descriptions after selection.
+- Stop empty HUD render passes and repeated idle text formatting. Keep movement, mouse control and Ctrl+number filtering unchanged.
+- Stable build: Debug remains disabled and hidden. Offline native-source, transport, lifecycle, operation-count and layout checks passed. Real-game FPS gains have not been measured.
+
+3.1.8
+- Replace the floating button header with the same native menu-panel element used by the original inventory, including text sizing, selection effects, background and tab sounds.
+- Use native mouse and controller tab navigation. Fit long labels on narrower aspect ratios without modifying the original menu templates.
+- Keep extension registration independent: enabled features contribute their own tabs, and removed extensions release their actual controls.
+- Use the native Back legend and retain the original I-key inventory and talent editor. Existing commands and optional shortcuts are unchanged.
+- Move the Buff selector below the native navigation row, retain ten visible entries and keep the detail panel clear of footer controls.
+- Offline Lua/native-source lifecycle and layout checks passed. In-game rendering still requires verification.
+
+3.1.7
+- Register only the Mortis page. Native Equipment, Cosmetics and Talents remain usable when no extension replaces them.
+- Remove the page registration and its widgets when disabled. Keep preselection restrictions in progress/competition modes and during missions.
+- Compose enabled extensions through a neutral protocol with no built-in list of other optional mods or tabs.
+- Load native inventory resources, attach native rendering to the current window and preserve normal preset editing.
+- Keep /mbm and its optional DMF shortcut as this mod’s entry. Clean up descriptions and mark Nexus usage instructions in red.
+- Debug remains disabled and hidden. Offline Lua/native-source and packaging checks passed; live game UI testing is still required.
+
+3.1.6
+- Place Equipment, Cosmetics, Forge, Talents and Mortis in one navigation row. Keep the native I-key interface unchanged.
+- Reuse the equipment session when switching between Equipment, Cosmetics and Forge.
+- Show /mbm at the start of the DMF overview. Explain that the command works without a key binding and that an optional DMF shortcut opens the same workspace.
+- Update English, Simplified Chinese and Traditional Chinese overview text. Gameplay and networking behavior are unchanged.
+
+3.1.5
+- Guard deferred child-page cleanup after the parent window has been destroyed.
+- Add /mbm and an optional DMF shortcut opening the shared Equipment / Talents / Mortis workspace.
+- Move preselection into its own page using native UI materials. Remove the original talent-tree overlay and duplicate open button.
+- Keep host permissions, preselection locks, progress/competition rewards, Ctrl+number selection, acquired-Buff display and deployment communication.
+- Grey the Mortis editing tab when preselection is unavailable. Clean up page resources on close/disable, including late resource callbacks.
+- Keep Debug hidden and disabled. Verified with local Lua/native-source regression tests and the Vortex package validator; live rendering/multiplayer verification remains necessary.
+
+3.1.3
+- Add an optional Realms Loadout entry that opens the existing Mortis panel in the native talent tree.
+- Respect preselection permissions, disabled progress/competition editing, local player identity, view lifecycle and DMF disable at the external entry.
+- Preserve independent operation without Talent Point Manager or Realms Loadout. Reward logic, host authority and protocol v6 are unchanged. Debug remains disabled and hidden.
+- Local UI, lifecycle, native reward, multiplayer-state and dual-control regressions passed. Live gameplay and multiplayer testing remains necessary.
+
+3.1.2
+- Each post-opening progress or competition round now grants one remaining route Buff automatically and offers a public/class Buff choice. Route exhaustion no longer delays or stops those choices.
+- Progress uses a fixed opening route choice plus nine paired rounds, for up to 19 Buffs; its DMF and Realms number controls are disabled.
+- The 0-64 slider and numeric input set preselection points or competition reward rounds according to mode. Competition includes the opening route choice; automatic route grants do not consume another round.
+- Competition stops at the round quota, offers two choices when two Buffs remain, automatically grants the last candidate, and shows no picker for an empty pool.
+- Queued rounds grant their route Buff only when they start. Every interactive choice receives a fresh 60 seconds; retries and lowered/restored limits do not duplicate route grants.
+- Separate round quotas from applied Buff counts, including Realms snapshots and talent-tree counters. Lowered quotas restrict rewards by their original round and retain history for restoration.
+- Realms reward protocol updated to v6. Update the host and all participating guests together; older reward protocols are incompatible.
+- Stable release for Nexus Main Files. Remove the temporary Debug controls, input/transport diagnostic collection and test-only instructions; clear previously enabled diagnostic settings. Preserve the Ctrl+number input fix.
+- Verified with local Lua/native-source checks, including disabled/hidden diagnostics, stale diagnostic settings, 128 character/Blitz/combat configurations, reward queues, two/one/zero candidates, large reward counts, guest reconnection, DMF/Realms controls and native Buff application adapters. Live gameplay and multiplayer verification is still needed.

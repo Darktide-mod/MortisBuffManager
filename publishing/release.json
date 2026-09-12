@@ -1,0 +1,10 @@
+{
+  "mod": "MortisBuffManager",
+  "release_id": "4.6.2",
+  "notes": "4.6.2 - Deliver the Mortis catalog update separately from HCM: four counted Available/DIY/Selected/Unavailable tabs, native Public/Class/Route categories, actual build and route eligibility, and native/DIY selection cleanup after a family change. - Browse talents and descriptions with independent mouse-wheel scrollbars. Remove the old All/Native tabs and talent pagination; retained legacy filter values now reset to Available. - Preserve the departed-page input/draw guard and native/legacy window close handling. Extend the real native UI handler regression to the user's installed Realms Loadout 0.5.1 shell: 4,800 stable tab-switch frames per shell with no old Mortis page reopening. - Check the released files as well as source. The installed 4.6.0 catalog does not include these changes; updating HCM alone cannot update this independent mod. - Offline native UI, route/pruning and layout checks passed. Actual game rendering and multiplayer verification remain pending. Release artifacts only; no local deployment.",
+  "file_category": "Main Files",
+  "stable_release": "4.6.2",
+  "usage_commands": [
+    "mortisbuffs"
+  ]
+}

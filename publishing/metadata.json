@@ -1,0 +1,59 @@
+{
+  "game": "Warhammer 40,000: Darktide",
+  "titles": {
+    "en": "Mortis Trials Buff Manager - Three Play Modes",
+    "zh-CN": "死灵试炼 Buff 管理器",
+    "zh-TW": "死靈試煉 Buff 管理器"
+  },
+  "version": "4.6.2",
+  "suggested_category": "Gameplay",
+  "required": [
+    "Darktide Mod Loader",
+    "Darktide Mod Framework",
+    "Solo Play"
+  ],
+  "optional": [
+    "Realms — for player-hosted sessions",
+    "Havoc Condition Manager — native DIY pacing pauses",
+    "Havoc Enemy Director — DIY reinforcement actions",
+    "SimpleAssets — v2 interface for external resources in authored DIY entries"
+  ],
+  "languages": [
+    "English",
+    "Chinese (Simplified)",
+    "Chinese (Traditional)"
+  ],
+  "suggested_tags": [
+    "Gameplay",
+    "English",
+    "Chinese",
+    "Solo Play",
+    "Realms"
+  ],
+  "image_type": "UI layout renders with sample configurations; not gameplay screenshots",
+  "images": [
+    "images/01-settings.en.png",
+    "images/02-picker.en.png",
+    "images/03-realms.en.png",
+    "images/04-draft.en.png",
+    "images/05-competition.en.png",
+    "images/06-kill-settings.en.png",
+    "images/07-diy-talents.en.png"
+  ],
+  "alternate_images": [
+    "images/01-settings.zh-cn.png",
+    "images/01-settings.zh-tw.png",
+    "images/02-picker.zh-cn.png",
+    "images/02-picker.zh-tw.png",
+    "images/03-realms.zh-cn.png",
+    "images/03-realms.zh-tw.png",
+    "images/04-draft.zh-cn.png",
+    "images/04-draft.zh-tw.png",
+    "images/05-competition.zh-cn.png",
+    "images/05-competition.zh-tw.png",
+    "images/06-kill-settings.zh-cn.png",
+    "images/06-kill-settings.zh-tw.png",
+    "images/07-diy-talents.zh-cn.png",
+    "images/07-diy-talents.zh-tw.png"
+  ]
+}

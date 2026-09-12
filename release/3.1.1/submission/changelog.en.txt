@@ -1,0 +1,4 @@
+3.1.1
+- Correct competition rewards: selected-route Buffs are automatic and stop when the route is exhausted. Further compatible public / class rewards require a choice; no wave schedule is used.
+- Preserve the ten-Buff progress mode, early final milestone, 60-second choices, queues and host-authoritative guest synchronization.
+- Checked route exhaustion, unique candidates, caps, timeouts and guest confirmations with native character data. Live gameplay retest remains required.

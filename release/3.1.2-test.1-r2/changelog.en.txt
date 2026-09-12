@@ -1,0 +1,5 @@
+3.1.2-test.1
+- Temporary opt-in input diagnostics, including card state, physical key, Ctrl state, weapon-action filtering and host acknowledgements.
+- Capture Ctrl+1/2/3 before gameplay caches input, prevent duplicate weapon actions and accept choices during the first 200 ms. Recognized keypad keys are also supported.
+- Preserve one press per visible card, queued-choice isolation, typing priority and DMF disable cleanup. No protocol or reward-rule changes.
+- Local regression checks passed; live-game and multiplayer retesting remains required.

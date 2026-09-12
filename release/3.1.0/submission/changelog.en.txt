@@ -1,0 +1,6 @@
+3.1.0
+- Native opening route selection. Progress: automatic route rewards plus native legendary choices, capped at 10 including the opening Buff; final path reward at 80%.
+- Competition: automatic selected-route rewards, then eligible public / class Buffs, without wave-based choices.
+- Separate boss, weakened boss and captain / twins progress; visible decimal input boxes.
+- Updated Realms protocol: host and participating guests must use 3.1.0. Route state, retries, queues and reconnects are isolated per character.
+- Native-data and local UI / network regression checks; live gameplay and multiplayer retest still required.

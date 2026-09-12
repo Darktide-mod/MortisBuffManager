@@ -1,0 +1,92 @@
+{
+  "01-settings.en.png": {
+    "en": "Global mode, point limit and competition weights. Offline UI layout render with sample text and players; not a gameplay screenshot.",
+    "zh-CN": "全局模式、上限和竞争击杀权重。离线界面布局渲染，文案与玩家为示例，非游戏实拍。",
+    "zh-TW": "全域性模式、上限和競爭擊殺權重。離線介面佈局渲染，文案與玩家為示例，非遊戲實拍。"
+  },
+  "01-settings.zh-cn.png": {
+    "en": "Global mode, point limit and competition weights. Offline UI layout render with sample text and players; not a gameplay screenshot.",
+    "zh-CN": "全局模式、上限和竞争击杀权重。离线界面布局渲染，文案与玩家为示例，非游戏实拍。",
+    "zh-TW": "全域性模式、上限和競爭擊殺權重。離線介面佈局渲染，文案與玩家為示例，非遊戲實拍。"
+  },
+  "01-settings.zh-tw.png": {
+    "en": "Global mode, point limit and competition weights. Offline UI layout render with sample text and players; not a gameplay screenshot.",
+    "zh-CN": "全局模式、上限和竞争击杀权重。离线界面布局渲染，文案与玩家为示例，非游戏实拍。",
+    "zh-TW": "全域性模式、上限和競爭擊殺權重。離線介面佈局渲染，文案與玩家為示例，非遊戲實拍。"
+  },
+  "02-picker.en.png": {
+    "en": "Preselection filters and Buff details. Offline UI layout render with sample text and players; not a gameplay screenshot.",
+    "zh-CN": "开局预选分类与 Buff 详情。离线界面布局渲染，文案与玩家为示例，非游戏实拍。",
+    "zh-TW": "開局預選分類與 Buff 詳情。離線介面佈局渲染，文案與玩家為示例，非遊戲實拍。"
+  },
+  "02-picker.zh-cn.png": {
+    "en": "Preselection filters and Buff details. Offline UI layout render with sample text and players; not a gameplay screenshot.",
+    "zh-CN": "开局预选分类与 Buff 详情。离线界面布局渲染，文案与玩家为示例，非游戏实拍。",
+    "zh-TW": "開局預選分類與 Buff 詳情。離線介面佈局渲染，文案與玩家為示例，非遊戲實拍。"
+  },
+  "02-picker.zh-tw.png": {
+    "en": "Preselection filters and Buff details. Offline UI layout render with sample text and players; not a gameplay screenshot.",
+    "zh-CN": "开局预选分类与 Buff 详情。离线界面布局渲染，文案与玩家为示例，非游戏实拍。",
+    "zh-TW": "開局預選分類與 Buff 詳情。離線介面佈局渲染，文案與玩家為示例，非遊戲實拍。"
+  },
+  "03-realms.en.png": {
+    "en": "Realms host controls and deployment states, with optional TalentPointManager 2.2.2. Offline UI layout render with sample text and players; not a gameplay screenshot.",
+    "zh-CN": "Realms 房主管理与部署状态，同时展示可选的天赋点管理器 2.2.2。离线界面布局渲染，文案与玩家为示例，非游戏实拍。",
+    "zh-TW": "Realms 房主管理與部署狀態，同時展示可選的天賦點管理器 2.2.2。離線介面佈局渲染，文案與玩家為示例，非遊戲實拍。"
+  },
+  "03-realms.zh-cn.png": {
+    "en": "Realms host controls and deployment states, with optional TalentPointManager 2.2.2. Offline UI layout render with sample text and players; not a gameplay screenshot.",
+    "zh-CN": "Realms 房主管理与部署状态，同时展示可选的天赋点管理器 2.2.2。离线界面布局渲染，文案与玩家为示例，非游戏实拍。",
+    "zh-TW": "Realms 房主管理與部署狀態，同時展示可選的天賦點管理器 2.2.2。離線介面佈局渲染，文案與玩家為示例，非遊戲實拍。"
+  },
+  "03-realms.zh-tw.png": {
+    "en": "Realms host controls and deployment states, with optional TalentPointManager 2.2.2. Offline UI layout render with sample text and players; not a gameplay screenshot.",
+    "zh-CN": "Realms 房主管理与部署状态，同时展示可选的天赋点管理器 2.2.2。离线界面布局渲染，文案与玩家为示例，非游戏实拍。",
+    "zh-TW": "Realms 房主管理與部署狀態，同時展示可選的天賦點管理器 2.2.2。離線介面佈局渲染，文案與玩家為示例，非遊戲實拍。"
+  },
+  "04-draft.en.png": {
+    "zh-TW": "開局死靈路線選擇，進度模式最多10個Buff。離線介面佈局預覽。",
+    "zh-CN": "开局死灵路线选择，进度模式最多10个Buff。离线界面布局预览。",
+    "en": "Opening Mortis route choice; up to ten Buffs in progress mode. Offline UI layout preview."
+  },
+  "04-draft.zh-cn.png": {
+    "zh-TW": "開局死靈路線選擇，進度模式最多10個Buff。離線介面佈局預覽。",
+    "zh-CN": "开局死灵路线选择，进度模式最多10个Buff。离线界面布局预览。",
+    "en": "Opening Mortis route choice; up to ten Buffs in progress mode. Offline UI layout preview."
+  },
+  "04-draft.zh-tw.png": {
+    "zh-TW": "開局死靈路線選擇，進度模式最多10個Buff。離線介面佈局預覽。",
+    "zh-CN": "开局死灵路线选择，进度模式最多10个Buff。离线界面布局预览。",
+    "en": "Opening Mortis route choice; up to ten Buffs in progress mode. Offline UI layout preview."
+  },
+  "05-competition.en.png": {
+    "en": "Competition kill progress and reward choices. Offline UI layout render with sample text and players; not a gameplay screenshot.",
+    "zh-CN": "竞争击杀进度与奖励选择。离线界面布局渲染，文案与玩家为示例，非游戏实拍。",
+    "zh-TW": "競爭擊殺進度與獎勵選擇。離線介面佈局渲染，文案與玩家為示例，非遊戲實拍。"
+  },
+  "05-competition.zh-cn.png": {
+    "en": "Competition kill progress and reward choices. Offline UI layout render with sample text and players; not a gameplay screenshot.",
+    "zh-CN": "竞争击杀进度与奖励选择。离线界面布局渲染，文案与玩家为示例，非游戏实拍。",
+    "zh-TW": "競爭擊殺進度與獎勵選擇。離線介面佈局渲染，文案與玩家為示例，非遊戲實拍。"
+  },
+  "05-competition.zh-tw.png": {
+    "en": "Competition kill progress and reward choices. Offline UI layout render with sample text and players; not a gameplay screenshot.",
+    "zh-CN": "竞争击杀进度与奖励选择。离线界面布局渲染，文案与玩家为示例，非游戏实拍。",
+    "zh-TW": "競爭擊殺進度與獎勵選擇。離線介面佈局渲染，文案與玩家為示例，非遊戲實拍。"
+  },
+  "06-kill-settings.en.png": {
+    "zh-TW": "六類擊殺進度與小數輸入框。離線介面佈局預覽。",
+    "zh-CN": "六类击杀进度与小数输入框。离线界面布局预览。",
+    "en": "Six kill-progress categories with decimal input. Offline UI layout preview."
+  },
+  "06-kill-settings.zh-cn.png": {
+    "zh-TW": "六類擊殺進度與小數輸入框。離線介面佈局預覽。",
+    "zh-CN": "六类击杀进度与小数输入框。离线界面布局预览。",
+    "en": "Six kill-progress categories with decimal input. Offline UI layout preview."
+  },
+  "06-kill-settings.zh-tw.png": {
+    "zh-TW": "六類擊殺進度與小數輸入框。離線介面佈局預覽。",
+    "zh-CN": "六类击杀进度与小数输入框。离线界面布局预览。",
+    "en": "Six kill-progress categories with decimal input. Offline UI layout preview."
+  }
+}

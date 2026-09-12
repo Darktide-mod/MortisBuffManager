@@ -1,0 +1,171 @@
+[size=5][b]English[/b][/size]
+
+[size=5][b]Mortis Trials Buff Manager[/b][/size]
+
+Bring native Mortis Buffs into SoloPlay and Realms missions. The host selects one reward mode and one shared point or reward-round limit for the party. Three modes provide preselected builds, map-progress rewards or personal kill rewards.
+
+[size=4][b][color=#ff6666]How to use[/color][/b][/size]
+
+[color=#ff6666]Enable custom Mortis Buffs in Mod Options → Mortis Buff Manager and choose a reward mode. In preselection mode, type /mbm in chat before the mission to open this mod’s Buff selector; no key binding is required. You can also assign an optional shortcut in this mod’s DMF settings.
+
+The selector opens in the inventory workspace and is not opened from the I-key talent tree. Close the original inventory before opening it. Progress and competition modes disable preselection; choose offered rewards during the mission with Ctrl+1, Ctrl+2 or Ctrl+3.[/color]
+
+This mod adds its own Mortis Buffs page to the inventory window. Equipment, Cosmetics and Talents retain their native behavior unless an enabled extension replaces them. Disabling the mod removes its page and controls.
+
+The workspace uses the native inventory tab bar, with mouse and controller navigation and widths that adapt to narrower screen ratios.
+
+[size=4][b]Preselection[/b][/size]
+
+Open /mbm before a mission and choose Buffs using category filters, a selected-only view, native icons and a detail panel. Each Buff costs one point. The host sets a shared maximum of N points, from 0–64, using the slider or direct numeric input. Family, class, ability and talent requirements follow native data. Editing is locked once the mission begins.
+
+[size=4][b]Progress mode[/b][/size]
+
+At the start, choose one of three shared Mortis routes and immediately receive its foundation Buff. Each later reward round automatically grants one remaining Buff from that route and offers a public / class Buff three-way choice. Route Buffs do not cost an extra reward round. After the route is exhausted, public / class choices continue.
+
+This mode has a fixed 10 reward rounds: the opening route choice plus 9 paired rounds, for up to 19 Buffs. Its numeric control is greyed out in DMF and Realms. Path milestones are 8%, 16%, 24%, 32%, 40%, 50%, 60%, 70% and 80%, so the final reward arrives before the mission ends. Maps without a linear path use main objective starts for bounded stage rewards. Path and objective rewards do not double-count; Mortis Trials uses wave events. Elapsed time does not grant rewards.
+
+[size=4][b]Competition mode[/b][/size]
+
+Choose a route at the start. Each player earns personal progress from kills. Every 100% earns one reward round: an automatic remaining Buff from the selected route plus a public / class Buff choice. Route Buffs prioritize foundation requirements. After the route is exhausted, public / class choices continue without a wave schedule.
+
+The host sets N reward rounds, from 0–64, using the slider or direct numeric input. The opening route choice counts as one round; automatic route Buffs do not consume additional rounds. No further reward is granted once the round limit is reached. Overflow progress is retained while rewards remain. Once the quota is earned, kill counting stops and the progress indicator disappears; queued choices still finish normally. Raising the quota resumes eligible counting. Already acquired Buffs are excluded: two remaining candidates produce a two-way choice, one remaining candidate is granted automatically, and an empty pool produces no picker.
+
+Default kill progress: regular enemies/hordes 0.25%, specialists 5%, elites 2.5%, ordinary bosses 50%, weakened bosses 50%, captains/twins 50%. The host can adjust all six categories globally with two decimal places. Bot kills do not award a human player's progress.
+
+Choose a local combat indicator in DMF: small bar, bar + percentage, percentage only, or hidden. Hiding the indicator does not stop rewards or hide choice cards.
+
+[size=4][b]Route and Buff choices[/b][/size]
+
+Compact animated cards use the native route names, Buff rank labels and complete effect descriptions, including formatted values. Long descriptions expand the cards instead of being cut off. The selected card flashes and lifts while the other options dim. After selection, automatic route awards and the last single candidate appear in the same card style with their full effects. Each round's automatic awards are shown together for two seconds after selection; the following choice then receives a full 60-second window. Press Ctrl+1, Ctrl+2 or Ctrl+3 to choose. Choices do not stop movement or capture the mouse; other menus and text entry take priority.
+
+Each choice allows 60 seconds, after which the host chooses randomly. Further reward rounds queue behind the active choice. Each starts with its automatic route grant and a fresh 60-second choice window. Candidates follow native route and class eligibility. If fewer than three remain, only eligible entries are offered; an exhausted pool stops further choices.
+
+Press Tab to view acquired Buffs in the native Mortis category. In progress and competition modes, the workspace Mortis editing tab is disabled. Rewards remain synchronized with the host and visible through the combat HUD and Tab display.
+
+[size=4][b]Host settings and Realms[/b][/size]
+
+Without Realms, configure the mode, shared limit and kill weights through DMF. With Realms, the host has one global Mortis control row in the preparation list, including in an empty room. Per-player mode and point overrides are not provided. 
+
+Click numeric settings to type or paste. Enter or clicking elsewhere confirms; Esc cancels. Realms plus/minus controls repeat after a 400 ms hold.
+
+Guests follow host rules. Deployment indicators show readiness, missing/incompatible installations, resource loading, disabled state and lost connections. An unready or disconnected guest does not block the remaining players. Rejoining the same room and character during a mission retains acquired rewards; another character or mission has separate state. The host owns choices and rewards, and stale or duplicate replies cannot consume another reward. Host migration is not provided.
+
+Reducing the limit restricts active Buffs while retaining saved choices; raising it can restore them. Changing reward mode during a mission starts a new reward run. Configure the intended mode before starting.
+
+[size=4][b]Requirements and compatibility[/b][/size]
+
+Requires Darktide Mod Loader, Darktide Mod Framework and SoloPlay. Realms is optional for player-hosted co-op. English, Simplified Chinese and Traditional Chinese follow the game language.
+
+Enable both the DMF switch and custom Mortis Buffs. The feature defaults off, with preselection and a 10-point shared limit. Disabling the mod removes its UI and applied effects while retaining saved choices.
+
+Buffs use original game templates, identifiers and the mission-Buff manager. Native stacking and eligibility rules apply. When managing Mortis Trials, this mod handles rewards without the native modal picker. Other mods replacing the same reward flow can conflict. The mod does not alter permanent progression in official matchmaking.
+
+[size=4][b]Compatibility[/b][/size]
+
+Compatible with Talent Point Manager and Realms Loadout. Both are optional; this mod keeps its own settings, Buff selections and rewards.
+
+[size=4][b]Vortex installation[/b][/size]
+
+[list]
+[*]Close the game and install the requirements. Import the ZIP with Install From File, enable it and select Deploy Mods.
+[*]Place MortisBuffManager after SoloPlay in Load Order; enable Realms for co-op.
+[*]Start the game and enable custom Mortis Buffs in Mod Options, then choose a mode and limit.
+[/list]
+
+[size=4][b]Manual installation[/b][/size]
+
+[list]
+[*]Close the game. Extract the ZIP into Darktide/mods, producing mods/MortisBuffManager.
+[*]Add MortisBuffManager on its own line after SoloPlay in mods/mod_load_order.txt.
+[*]Start the game and enable the feature in Mod Options.
+[/list]
+
+[size=4][b]Credits[/b][/size]
+
+SoloPlay and Realms: deluxghost. Native Mortis systems, Buff definitions and referenced materials: Fatshark.
+
+[size=5][b]简体中文[/b][/size]
+
+[size=5][b]死灵试炼 Buff 管理器[/b][/size]
+
+在 SoloPlay 和 Realms 任务中使用原版死灵 Buff。由房主为全队选择统一奖励模式及点数／奖励次数，提供预选、地图进度和个人击杀奖励三种玩法。
+
+[size=4][b][color=#ff6666]使用方法[/color][/b][/size]
+
+[color=#ff6666]在 Mod Options → 死灵试炼 Buff 管理器中开启自定义死灵 Buff，并选择奖励模式。预选模式下，在任务开始前于聊天栏输入 /mbm 打开本 mod 的 Buff 选择页，无需绑定按键；也可在本 mod 的 DMF 设置中绑定快捷键。
+
+选择页在配装窗口中打开，不从 I 键天赋树进入，打开前先关闭原版装备界面。进度和竞争模式下预选入口置灰；任务中的奖励抽选使用 Ctrl+1、Ctrl+2 或 Ctrl+3。[/color]
+
+本 mod 向配装窗口添加死灵 Buff 页。配装、外观与天赋保留原版功能，除非已启用的扩展替换对应页面；关闭 mod 后撤销死灵页面与控件。
+
+窗口采用原版配装标签栏，支持鼠标与手柄切换，标签宽度适配较窄的屏幕比例。
+
+[size=4][b]预选模式[/b][/size]
+
+任务开始前使用 /mbm 打开死灵页，使用分类筛选、已选视图、原版图标及详情面板选择 Buff。每个 Buff 消耗 1 点，由房主使用滑动条或直接输入设置全队最多 N 点，范围为 0–64。流派、职业、技能及天赋要求遵循原版数据。进入任务后锁定编辑。
+
+[size=4][b]进度模式[/b][/size]
+
+开局从三条公共死灵路线中选择一条，并立即获得基础 Buff。后续每轮自动发放一个尚未获得的所选路线 Buff，同时提供一次公共／职业 Buff 三选一。路线 Buff 不额外消耗奖励次数；路线耗尽后，公共／职业三选一继续发放。
+
+固定 10 次奖励：开局路线选择＋9 次双奖励，最多获得 19 个 Buff。DMF 与 Realms 中的数值控件置灰。路径节点为 8%、16%、24%、32%、40%、50%、60%、70%、80%，最后奖励提前到任务结束之前。没有线性路径的地图，使用主要目标开始事件发放有上限的阶段奖励。路径与目标不重复计奖；死灵试炼任务使用波次事件。时间流逝不产生奖励。
+
+[size=4][b]竞争模式[/b][/size]
+
+开局选择路线，每名玩家随后通过击杀累计个人进度。每满 100% 获得一轮奖励：自动发放一个未获得的所选路线 Buff，并提供一次公共／职业 Buff 三选一。路线奖励优先满足基础 Buff 要求。路线耗尽后，公共／职业三选一继续发放，不依赖波次。
+
+由房主使用滑动条或直接输入设置 N 次奖励，范围为 0–64。开局路线选择计为一次，自动路线 Buff 不额外占次数。尚有奖励次数时保留溢出击杀进度。达到奖励次数上限后停止击杀计数并关闭进度显示，已经排队的抽选仍正常完成；提高上限后可继续计数。已获得 Buff 不会重复进入候选；只剩两个候选时二选一，只剩一个时直接发放，候选池为空时不再弹出抽选。
+
+默认击杀进度：普通敌人／尸潮 0.25%、特感 5%、精英 2.5%、普通 Boss 50%、虚弱 Boss 50%、连长／双子 50%。房主可统一调整这六类数值，支持两位小数。机器人击杀不计入真人玩家进度。
+
+DMF 可选择自己的作战进度显示：小型进度条、进度条＋百分比、仅百分比或不显示。隐藏进度不会停止奖励，也不会隐藏抽选卡片。
+
+[size=4][b]路线与 Buff 抽选[/b][/size]
+
+紧凑卡片使用原版路线名称、Buff 等级标签与完整效果说明，保留数值；长说明按需增加高度，不裁掉正文。选中的卡片闪亮并抬起，其余选项淡出。选取完成后，自动分配的路线 Buff 及最后一个自动获得的候选都会使用相同卡片显示名称和完整效果。同一轮的自动奖励在选取结束后一起展示 2 秒，随后下一轮抽选获得完整 60 秒。按 Ctrl＋1、Ctrl＋2 或 Ctrl＋3 选择，不停止玩家移动、不接管鼠标；其他菜单及文字输入优先。
+
+每次选择有 60 秒，超时由房主随机选择。后续奖励轮次排队等待，轮到时才发放该轮自动路线 Buff，并开启完整 60 秒的抽选。候选遵循原版路线与职业条件；不足三个时只提供剩余可用项，池子耗尽后停止抽选。
+
+按 Tab 可在原版死灵分类查看已经获得的 Buff。进度及竞争模式下，统一窗口中的死灵编辑标签置灰；奖励继续与主机同步，通过作战 HUD 和 Tab 查看。
+
+[size=4][b]房主设置与 Realms[/b][/size]
+
+没有 Realms 时，在 DMF 调整模式、全队上限和击杀权重。使用 Realms 时，房主在准备列表中拥有一行全局死灵控件，空房间也可操作。不提供逐玩家模式或点数覆盖。
+
+点击数字可输入或粘贴，回车或点击其他位置确认，Esc 取消。Realms 加减控件长按 400 毫秒后连续调整。
+
+客机遵循房主规则。部署状态显示就绪、未安装／不兼容、资源加载、已禁用及连接中断。未就绪或掉线客机不会阻塞其他玩家；同局中以相同角色重连可以保留已获奖励，其他角色或任务使用独立状态。候选及奖励由主机管理，过期或重复回复不会额外消耗奖励。不提供房主迁移。
+
+缩小上限会限制生效 Buff，并保留原有选择记录；提高上限可恢复保留的选择。任务中切换奖励模式会开始新的奖励流程，建议开局前确定模式。
+
+[size=4][b]使用前提与兼容[/b][/size]
+
+需要 Darktide Mod Loader、Darktide Mod Framework 和 SoloPlay。玩家房主联机可使用 Realms。英文、简体中文和繁体中文跟随游戏语言。
+
+DMF 开关与自定义死灵 Buff 开关都需要开启。功能默认关闭，默认为预选模式、10 点全队上限。关闭 mod 会移除界面及已应用效果，并保留保存的选择。
+
+Buff 使用原版模板、编号及任务 Buff 管理器，遵循原版叠加与适用规则。在死灵试炼任务中，本 mod 接管奖励流程并避免原版弹窗接管操作。替换同一奖励流程的其他 mod 可能冲突。本 mod 不改变官方匹配的永久成长。
+
+[size=4][b]兼容性[/b][/size]
+
+兼容 Talent Point Manager 和 Realms Loadout，二者均为可选安装；本 mod 独立管理设置、Buff 选择及奖励。
+
+[size=4][b]Vortex 安装[/b][/size]
+
+[list]
+[*]退出游戏并安装依赖。使用 Install From File 导入 ZIP，启用后选择 Deploy Mods。
+[*]在 Load Order 中将 MortisBuffManager 放在 SoloPlay 后面；联机时启用 Realms。
+[*]启动游戏，在 Mod Options 开启自定义死灵 Buff，并选择模式和上限。
+[/list]
+
+[size=4][b]手动安装[/b][/size]
+
+[list]
+[*]退出游戏，将 ZIP 解压到 Darktide/mods，得到 mods/MortisBuffManager。
+[*]在 mods/mod_load_order.txt 中，SoloPlay 后单独添加一行 MortisBuffManager。
+[*]启动游戏，在 Mod Options 中开启功能。
+[/list]
+
+[size=4][b]致谢[/b][/size]
+
+SoloPlay 与 Realms：deluxghost。原版死灵系统、Buff 定义与引用素材：Fatshark。

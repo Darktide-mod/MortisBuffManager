@@ -1,0 +1,1 @@
+Native Mortis Buffs for SoloPlay and Realms: preselection, map-progress rewards and personal kill rewards. Host authority, compact Ctrl+number choices and acquired-Buff display. Open preselection with /mbm or an optional DMF shortcut in the shared workspace.

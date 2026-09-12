@@ -1,0 +1,48 @@
+{
+  "game": "Warhammer 40,000: Darktide",
+  "titles": {
+    "en": "Mortis Trials Buff Manager - Local and Realms",
+    "zh-CN": "死灵试炼 Buff 管理器",
+    "zh-TW": "死靈試煉 Buff 管理器"
+  },
+  "version": "2.0.1",
+  "suggested_category": "Gameplay",
+  "required": [
+    "Darktide Mod Loader",
+    "Darktide Mod Framework",
+    "Solo Play"
+  ],
+  "optional": [
+    "Realms — for player-hosted sessions"
+  ],
+  "languages": [
+    "English",
+    "Chinese (Simplified)",
+    "Chinese (Traditional)"
+  ],
+  "suggested_tags": [
+    "Gameplay",
+    "English",
+    "Chinese",
+    "Solo Play",
+    "Realms"
+  ],
+  "image_type": "UI layout renders with sample configurations; not gameplay screenshots",
+  "images": [
+    "images/01-settings.en.png"
+  ],
+  "alternate_images": [
+    "images/01-settings.zh-cn.png",
+    "images/01-settings.zh-tw.png"
+  ],
+  "summaries": {
+    "en": "Requires SoloPlay and also supports Realms sessions. Choose Mortis Trials Buffs through the talent-tree UI, using native eligibility rules and a configurable 1–64 selection limit. Independent of Talent Point Manager.",
+    "zh-CN": "以 SoloPlay 为前提，同时支持 Realms 联机会话。通过天赋树界面选择死灵试炼 Buff，按原版资格规则筛选，可设置 1–64 项选择上限。与天赋点管理器独立。",
+    "zh-TW": "以 SoloPlay 為前提，同時支援 Realms 聯機會話。透過天賦樹介面選擇死靈試煉 Buff，按原版資格規則篩選，可設定 1–64 項選擇上限。與天賦點管理器獨立。"
+  },
+  "main_file": "../files/MortisBuffManager-2.0.1.zip",
+  "main_file_description": "Requires SoloPlay and also supports Realms sessions. Choose Mortis Trials Buffs through the talent-tree UI, using native eligibility rules and a configurable 1–64 selection limit. Independent of Talent Point Manager.",
+  "file_category": "Main Files",
+  "archive_root": "MortisBuffManager/",
+  "manual_extract_to": "Darktide/mods/"
+}

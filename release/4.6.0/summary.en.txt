@@ -1,0 +1,1 @@
+Native and DIY Mortis talents for SoloPlay and Realms. Search the talent pool, click to preselect and review a separate selected list with native/DIY point counters. Includes batch actions, host DIY permissions, independent pools and weighted progress or kill rewards.

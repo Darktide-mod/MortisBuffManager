@@ -1,0 +1,1 @@
+Native Mortis Buffs for SoloPlay and Realms: preselection, map-progress rewards and personal kill rewards. Open preselection with /mbm; use Ctrl+number for mission rewards. Compatible with Talent Point Manager and Realms Loadout.

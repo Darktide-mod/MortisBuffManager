@@ -1,0 +1,1 @@
+Requires SoloPlay and also supports Realms sessions. Choose Mortis Trials Buffs through the talent-tree UI, using native eligibility rules and a configurable 1–64 selection limit. Independent of Talent Point Manager.

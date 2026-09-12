@@ -1,0 +1,20 @@
+[
+  {
+    "mod": "MortisBuffManager",
+    "language": "en",
+    "file": "images/01-settings.en.png",
+    "kind": "MortisBuffManager"
+  },
+  {
+    "mod": "MortisBuffManager",
+    "language": "zh-cn",
+    "file": "images/01-settings.zh-cn.png",
+    "kind": "MortisBuffManager"
+  },
+  {
+    "mod": "MortisBuffManager",
+    "language": "zh-tw",
+    "file": "images/01-settings.zh-tw.png",
+    "kind": "MortisBuffManager"
+  }
+]

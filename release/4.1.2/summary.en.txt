@@ -1,0 +1,1 @@
+Native and DIY Mortis talents for SoloPlay and Realms. One searchable catalog, batch preselection, host DIY permissions, named missing-player checks, independent pool switches and weighted progress or kill rewards. Includes a fivefold ranged salvo template.

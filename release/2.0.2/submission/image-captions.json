@@ -1,0 +1,17 @@
+{
+  "01-settings.en.png": {
+    "en": "Mortis Buff settings. UI layout render with sample values; not an in-game screenshot.",
+    "zh-CN": "死灵 Buff 设置。根据控件布局渲染，采用示例配置，非游戏实拍。",
+    "zh-TW": "死靈 Buff 設定。根據控制元件佈局渲染，採用示例配置，非遊戲實拍。"
+  },
+  "01-settings.zh-cn.png": {
+    "en": "Mortis Buff settings. UI layout render with sample values; not an in-game screenshot.",
+    "zh-CN": "死灵 Buff 设置。根据控件布局渲染，采用示例配置，非游戏实拍。",
+    "zh-TW": "死靈 Buff 設定。根據控制元件佈局渲染，採用示例配置，非遊戲實拍。"
+  },
+  "01-settings.zh-tw.png": {
+    "en": "Mortis Buff settings. UI layout render with sample values; not an in-game screenshot.",
+    "zh-CN": "死灵 Buff 设置。根据控件布局渲染，采用示例配置，非游戏实拍。",
+    "zh-TW": "死靈 Buff 設定。根據控制元件佈局渲染，採用示例配置，非遊戲實拍。"
+  }
+}

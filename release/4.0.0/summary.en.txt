@@ -1,0 +1,1 @@
+Choose Mortis Buffs in a native workspace, earn progress or kill rewards, and load DIY talent libraries with editable templates, event rules and optional HCM/HED links. Supports SoloPlay and host-authoritative Realms sessions.

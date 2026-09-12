@@ -1,0 +1,60 @@
+{
+  "game": "Warhammer 40,000: Darktide",
+  "titles": {
+    "en": "Mortis Trials Buff Manager - Three Play Modes",
+    "zh-CN": "死灵试炼 Buff 管理器",
+    "zh-TW": "死靈試煉 Buff 管理器"
+  },
+  "version": "3.0.0",
+  "suggested_category": "Gameplay",
+  "required": [
+    "Darktide Mod Loader",
+    "Darktide Mod Framework",
+    "Solo Play"
+  ],
+  "optional": [
+    "Realms — for player-hosted sessions"
+  ],
+  "languages": [
+    "English",
+    "Chinese (Simplified)",
+    "Chinese (Traditional)"
+  ],
+  "suggested_tags": [
+    "Gameplay",
+    "English",
+    "Chinese",
+    "Solo Play",
+    "Realms"
+  ],
+  "image_type": "UI layout renders with sample configurations; not gameplay screenshots",
+  "images": [
+    "images/01-settings.en.png",
+    "images/02-picker.en.png",
+    "images/03-realms.en.png",
+    "images/04-draft.en.png",
+    "images/05-competition.en.png"
+  ],
+  "alternate_images": [
+    "images/01-settings.zh-cn.png",
+    "images/01-settings.zh-tw.png",
+    "images/02-picker.zh-cn.png",
+    "images/02-picker.zh-tw.png",
+    "images/03-realms.zh-cn.png",
+    "images/03-realms.zh-tw.png",
+    "images/04-draft.zh-cn.png",
+    "images/04-draft.zh-tw.png",
+    "images/05-competition.zh-cn.png",
+    "images/05-competition.zh-tw.png"
+  ],
+  "summaries": {
+    "en": "Requires SoloPlay; supports Realms. Choose native Mortis Buffs before a mission, draft by map progress, or earn personal kill rewards. Three global modes, a shared 0–64 cap, non-blocking Ctrl+1/2/3 choices, queued 60-second picks, Tab Buffs and host-visible deployment status.",
+    "zh-CN": "以 SoloPlay 为前提，支持 Realms。提供点数预选、地图进度抽选和击杀竞争三种全局模式，统一 0–64 上限；Ctrl+1/2/3 三选一不打断操作，每轮 60 秒并支持排队，Tab 显示已得 Buff，房主可查看客机部署状态。",
+    "zh-TW": "以 SoloPlay 為前提，支援 Realms。提供點數預選、地圖進度抽選和擊殺競爭三種全域性模式，統一 0–64 上限；Ctrl+1/2/3 三選一不打斷操作，每輪 60 秒並支援排隊，Tab 顯示已得 Buff，房主可檢視客機部署狀態。"
+  },
+  "main_file": "../files/MortisBuffManager-3.0.0.zip",
+  "main_file_description": "Requires SoloPlay; supports Realms. Choose native Mortis Buffs before a mission, draft by map progress, or earn personal kill rewards. Three global modes, a shared 0–64 cap, non-blocking Ctrl+1/2/3 choices, queued 60-second picks, Tab Buffs and host-visible deployment status.",
+  "file_category": "Main Files",
+  "archive_root": "MortisBuffManager/",
+  "manual_extract_to": "Darktide/mods/"
+}

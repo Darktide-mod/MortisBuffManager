@@ -1,0 +1,5 @@
+Version 2.0.1
+
+- Completed English, Simplified Chinese and Traditional Chinese settings text.
+- Moved documentation into this mod's own folder to remove the shared README conflict between the four individual Vortex packages.
+

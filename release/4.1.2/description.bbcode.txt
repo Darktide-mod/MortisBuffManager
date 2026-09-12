@@ -1,0 +1,129 @@
+[size=5][b]English[/b][/size]
+
+[size=5][b]Mortis Trials Buff Manager[/b][/size]
+
+Use native Mortis rewards and editable DIY talents in SoloPlay and Realms. One talent-pool page brings together preselection, progress rewards, competition rewards and room permissions.
+
+[size=4][b][color=#ff6666]How to use[/color][/b][/size]
+
+[color=#ff6666]Enable the mod, close the original inventory and enter /mortisbuffs in chat. The Mortis page is available in all three reward modes. Before starting, choose a mode and switch the native and DIY pools on or off independently. Open Library and limits to import a JSON library or export the starter.[/color]
+
+The left list supports source and availability filters, typed search, pasted search and pagination. Select a grey entry to inspect its description and the reason it cannot enter the pool. The right panel shows weight, tier, acquired state and the names of players whose DIY definition is missing or different. Long descriptions and long player lists have their own page controls. Directional navigation and confirm also operate the page controls.
+
+Batch actions mark individual entries or every filtered result across all pages. Choose My preselection to add or remove personal choices, or Room DIY pool to change permissions for everyone. Existing selections stay selected when added again. Entries that cannot be added are skipped with a changed/skipped count.
+
+[size=4][b]Pool switches and host permissions[/b][/size]
+
+Native on + DIY on combines both sources. Native on + DIY off uses native rewards. Native off + DIY on uses only DIY. Both off grants neither source through the managed Mortis reward flow.
+
+The native pool can only be enabled or disabled as a whole. The host cannot ban individual native talents; personal native preselection remains free within native eligibility and point limits. Only DIY entries have individual room permissions. The host can exclude one or many DIY talents from both manual preselection and random rewards. Saved choices are retained, unavailable rows are grey, and only players with an affected saved/acquired choice receive a notice.
+
+Every human Realms participant must confirm a matching definition for each DIY entry. A missing or different entry blocks that entry for the whole room, including the host. Extra entries and different library names are allowed when the relevant entry IDs and normalized definitions match. Changing a weight also changes the definition. Player names and reasons appear in the detail panel. Connection and loading states are shown while confirmation is pending. Guests follow the host's switches, permissions and limits. Use the current Mortis release on all players.
+
+[size=4][b]Preselection[/b][/size]
+
+Choose a native family and add the desired native and DIY talents before the mission. Native talents use the host's 0–64 point limit; DIY uses a separate 0–32 total limit, default six. Each talent consumes one slot in its own source. Manual DIY selection respects equipment requirements and exclusive groups; random tier quotas do not limit manual selection. Mission entry freezes the imported document and saved preselection. Room configuration and import controls are locked during the mission; the list remains available for inspection.
+
+[size=4][b]Progress and competition[/b][/size]
+
+Whenever the native pool is enabled, the opening reward first chooses a native Mortis family and grants its foundation talent. Later rounds grant an available talent from that route and offer a non-route choice. With DIY enabled, those non-route candidates also include eligible DIY talents. With only DIY enabled, the opening is a DIY choice and there are no native family or automatic route rewards. DIY rewards consume these shared reward rounds; there is no additional random DIY opening grant.
+
+Progress mode has ten rounds at the opening and path milestones 8%, 16%, 24%, 32%, 40%, 50%, 60%, 70% and 80%. Native route rewards can bring this to nineteen talents. Only-DIY play can award at most ten, also subject to DIY limits. Maps without a linear path use bounded objective events; Mortis Trials uses waves. Time alone grants no rounds.
+
+Competition gives each player personal kill progress; each 100% earns another round, up to the host's 0–64 round limit including the opening. Defaults: ordinary enemies 0.25%, specialists 5%, elites 2.5%, bosses 40%, weakened bosses 20%, captains/twins 50%. Bot kills do not count. Kill weights support two decimal places. Choose a local bar, bar with percentage, percentage only or hidden indicator. Earned quotas stop further counting while queued rewards finish.
+
+Choose cards with Ctrl+1, Ctrl+2 or Ctrl+3. A choice has sixty seconds, then the host picks randomly; queued choices get a fresh timer after the previous award presentation. Competition automatically grants its last sole candidate. Acquired talents are excluded from future draws. In all modes the catalog remains accessible. Native acquired Buffs also appear in the native Tab list; the unified catalog shows acquired DIY talents.
+
+[size=4][b]DIY templates and probability[/b][/size]
+
+Export and load the twelve-entry starter, or edit the JSON files in docs/diy. Supported effects include passive stats, native keywords, conditional events, temporary layers, resource changes and audited native statuses. Native reinforcement requests require Havoc Enemy Director; native pacing pause actions require Havoc Condition Manager. Ordinary Mortis DIY talents do not require either mod.
+
+An entry's weight ranges from 0 to 1000 and defaults to 1; positive fractions are allowed. Zero excludes random offers but still permits manual preselection. Mixed non-route draws give each native candidate weight 1 and each DIY candidate its configured weight. Each slot samples without replacement from the remaining eligible entries: weights 1, 2 and 7 give first-slot probabilities of 10%, 20% and 70%. These are relative weights, not guaranteed whole-card appearance percentages. Native-only play retains native category weighting. DIY random awards obey total, tier and exclusive-group limits, checked again after every grant.
+
+The Fivefold salvo example creates five copies of a ranged attack, including staff attacks, while paying the original ammunition, warp-charge or overheat cost once. Native extra projectiles multiply: a Surge critical shot creates ten projectiles. Shotgun copies reuse the native pellet pattern. Flame and lightning repeat native hit pulses, with native status limits. The ranged_salvo_count modifier accepts integers 1–5, is Mortis-only and combines by maximum rather than multiplying multiple copies of the talent.
+
+[size=4][b]Requirements and installation[/b][/size]
+
+Requires Darktide Mod Loader, Darktide Mod Framework and SoloPlay. Realms is optional for player-hosted co-op. English, Simplified Chinese and Traditional Chinese follow the game language. The DMF option Enable custom Mortis Buffs controls the native source; the unified page provides both source switches. Disabling the mod removes its controls and effects while retaining saved data. Other mods replacing the same Mortis reward flow may conflict.
+
+### Vortex installation
+
+[list]
+[*]Close the game, import the ZIP using Install From File, enable it and Deploy Mods.
+[*]Place MortisBuffManager after SoloPlay in Load Order; enable Realms for co-op.
+[/list]
+
+### Manual installation
+
+[list]
+[*]Close the game and extract the ZIP into Darktide/mods, producing mods/MortisBuffManager.
+[*]Add MortisBuffManager after SoloPlay in mods/mod_load_order.txt.
+[*]Start the game, enable the mod and configure its talent pools.
+[/list]
+
+SoloPlay and Realms: deluxghost. Native Mortis systems and materials: Fatshark.
+
+[size=5][b]简体中文[/b][/size]
+
+[size=5][b]死灵试炼 Buff 管理器[/b][/size]
+
+在 SoloPlay 和 Realms 中使用原生死灵奖励与可编辑的 DIY 天赋。预选、进度奖励、竞争奖励和房间权限集中在同一张天赋池页面。
+
+[size=4][b][color=#ff6666]使用方法[/color][/b][/size]
+
+[color=#ff6666]开启 mod，关闭原版装备界面，然后在聊天栏输入 /mortisbuffs。三种奖励模式都能打开死灵页。开局前选择模式，分别设置原生池和 DIY 池的开关；在「配置库与配额」中导入 JSON 或导出入门模板。[/color]
+
+左侧支持来源、可入池状态筛选、直接输入或粘贴搜索，以及翻页。灰色条目仍可点击查看。右侧显示技能说明、权重、等级、已获状态，并列出缺少 DIY 定义或定义不一致的玩家姓名。较长的技能说明和玩家名单支持分页。方向键／手柄方向与确认键也可操作页面控件。
+
+「批量操作」可逐项标记，也可选择全部筛选结果，包含其他页。选择「我的预选」可批量加入或移除自己的选择；房主选择「房间 DIY 池」可批量修改全房间权限。再次加入已有选择不会反向取消；无法加入的项目会跳过，并显示已更改与跳过数量。
+
+[size=4][b]池子开关与房主权限[/b][/size]
+
+原生开＋DIY 开：两者共同参与；原生开＋DIY 关：仅原生；原生关＋DIY 开：仅 DIY；两者都关：由本 mod 管理的死灵奖励流程不发放两类技能。
+
+原生死灵池只能整体开启或关闭，房主不能逐项禁用原生技能。玩家仍可在配装适配与点数上限内自由预选原生技能。只有 DIY 支持单项房间权限，房主可禁用一个或多个 DIY，使其同时退出预选和随机奖励池。保存的选择会保留，不可用条目置灰；只有已预选或已获得受影响技能的玩家收到提醒。
+
+Realms 房间中的每位真人都须确认对应 DIY 定义一致。任一玩家缺少某项、或定义不同，该项就对全房间不可用，房主也会看到灰显。允许客机拥有额外条目或使用不同的配置库名称，只要对应条目 ID 和规范化后的定义一致。权重改变也属于定义不同。右侧列出具体玩家和原因；尚未确认时显示连接／加载状态。客机遵循房主的开关、权限与上限。所有玩家应使用当前死灵管理器版本。
+
+[size=4][b]预选模式[/b][/size]
+
+开局前选择原生流派，再加入所需的原生和 DIY 技能。原生使用房主设定的 0–64 点上限；DIY 使用独立的 0–32 项总数上限，默认六项。每项技能在自己的来源中占一个名额。手动 DIY 遵守配装条件与互斥组，随机等级配额不限制手选。进入任务后固定导入文档和保存的预选，页面锁定房间配置与导入；仍可查看完整技能列表。
+
+[size=4][b]进度与竞争模式[/b][/size]
+
+只要原生池开启，开局一定先选原生死灵流派，并获得其基础技能。后续每轮发放一个尚可获得的该流派技能，再提供一次非流派技能选择。DIY 开启时，适配的 DIY 也进入这次选择。只有 DIY 开启时，开局直接抽选 DIY，不出现原生流派和原生自动路线奖励。DIY 使用同一套奖励轮次，不再额外发放一组开局随机 DIY。
+
+进度模式共十轮：开局一轮，以及路径 8%、16%、24%、32%、40%、50%、60%、70%、80% 的九轮。原生路线奖励可使总数达到十九项。仅 DIY 时最多十项，且仍受 DIY 配额限制。没有线性路径的地图使用有上限的目标事件，死灵试炼使用波次；时间流逝本身不发放轮次。
+
+竞争模式按每名玩家的个人击杀进度发放奖励，每满 100% 获得下一轮。房主设置 0–64 轮上限，含开局。默认进度：普通敌人 0.25%、特感 5%、精英 2.5%、普通 Boss 40%、虚弱 Boss 20%、连长／双子 50%，机器人击杀不计入。击杀权重可设两位小数，本地进度显示可选小条、小条加百分比、仅百分比或隐藏。达到可赚取轮数后停止计数，已排队奖励仍会完成。
+
+使用 Ctrl+1、Ctrl+2、Ctrl+3 选择卡牌。每次选择有六十秒，超时由房主随机选定；上一轮奖励展示完成后，下一次选择获得完整计时。竞争模式只剩一个候选时直接发放。已获得技能不会重复抽取。所有模式均可查看天赋池。原生已获 Buff 也显示在原版 Tab 列表；统一天赋池会显示本局已获 DIY。
+
+[size=4][b]DIY 模板与概率[/b][/size]
+
+导出并载入十二项入门模板，或编辑 docs/diy 中的 JSON。支持被动属性、原生关键词、条件事件、临时叠层、资源变化和已审计原生状态。请求高级增援需要 Havoc Enemy Director，暂停原生刷怪节奏需要 Havoc Condition Manager；普通死灵 DIY 不依赖这两个 mod。
+
+条目 weight 范围为 0–1000，默认 1，允许正小数。0 不参与随机候选，但仍可预选。混合的非流派抽选中，每个原生候选权重为 1，每个 DIY 候选使用自己的权重。每个卡位从剩余适配候选中按权重抽取，且不重复：仅有权重 1、2、7 三项时，第一个卡位概率分别为 10%、20%、70%。权重是相对值，并非整组三张卡的固定出现百分比。仅原生时保留原版分类权重。DIY 随机奖励同时遵守总数、等级和互斥组限制，每次发放后重新检查。
+
+「五重齐射」让远程攻击产生五份原有攻击，包括法杖，弹药、灵能或过热仍只支付一次原本消耗。原生额外弹体参与乘算，因此激涌暴击共十发。霰弹复制沿用原散布；火焰和闪电重复原生命中脉冲，保留原版状态上限。ranged_salvo_count 仅限死灵天赋，接受 1–5 的整数；多个来源取最大值，不会相乘到二十五发。
+
+[size=4][b]依赖与安装[/b][/size]
+
+需要 Darktide Mod Loader、Darktide Mod Framework 和 SoloPlay；玩家房主联机可选 Realms。英文、简体中文和繁体中文跟随游戏语言。DMF 中的「启用自定义死灵 Buff」控制原生来源；统一页面提供两类来源的开关。关闭 mod 撤销控件与效果，保留已保存数据。其他替换同一死灵奖励流程的 mod 可能冲突。
+
+### Vortex 安装
+
+[list]
+[*]关闭游戏，使用 Install From File 导入 ZIP，启用后 Deploy Mods。
+[*]在 Load Order 中将 MortisBuffManager 放在 SoloPlay 后；联机时开启 Realms。
+[/list]
+
+### 手动安装
+
+[list]
+[*]关闭游戏，将 ZIP 解压到 Darktide/mods，得到 mods/MortisBuffManager。
+[*]在 mods/mod_load_order.txt 的 SoloPlay 后新增一行 MortisBuffManager。
+[*]启动游戏，开启 mod 并配置天赋池。
+[/list]
+
+SoloPlay 与 Realms：deluxghost。原生死灵系统与素材：Fatshark。

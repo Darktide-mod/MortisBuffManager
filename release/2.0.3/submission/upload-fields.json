@@ -1,0 +1,48 @@
+{
+  "game": "Warhammer 40,000: Darktide",
+  "titles": {
+    "en": "Mortis Trials Buff Manager - Local and Realms",
+    "zh-CN": "死灵试炼 Buff 管理器",
+    "zh-TW": "死靈試煉 Buff 管理器"
+  },
+  "version": "2.0.3",
+  "suggested_category": "Gameplay",
+  "required": [
+    "Darktide Mod Loader",
+    "Darktide Mod Framework",
+    "Solo Play"
+  ],
+  "optional": [
+    "Realms — for player-hosted sessions"
+  ],
+  "languages": [
+    "English",
+    "Chinese (Simplified)",
+    "Chinese (Traditional)"
+  ],
+  "suggested_tags": [
+    "Gameplay",
+    "English",
+    "Chinese",
+    "Solo Play",
+    "Realms"
+  ],
+  "image_type": "UI layout renders with sample configurations; not gameplay screenshots",
+  "images": [
+    "images/01-settings.en.png"
+  ],
+  "alternate_images": [
+    "images/01-settings.zh-cn.png",
+    "images/01-settings.zh-tw.png"
+  ],
+  "summaries": {
+    "en": "Requires SoloPlay; supports Realms. Select native Mortis Trials Buffs from the talent tree, filtered by class and skills. Fixes the unclosable picker and lingering button when disabled in DMF, with clean disable/re-enable behavior and saved selections preserved.",
+    "zh-CN": "以 SoloPlay 为前提，支持 Realms。在天赋树选择原版死灵试炼 Buff，按职业与技能筛选。本版修复 DMF 禁用后的空弹窗和残留按钮，支持随时关闭及重新启用，保留已保存选择。",
+    "zh-TW": "以 SoloPlay 為前提，支援 Realms。在天賦樹選擇原版死靈試煉 Buff，按職業與技能篩選。本版修復 DMF 禁用後的空彈窗和殘留按鈕，支援隨時關閉及重新啟用，保留已儲存選擇。"
+  },
+  "main_file": "../files/MortisBuffManager-2.0.3.zip",
+  "main_file_description": "Requires SoloPlay; supports Realms. Select native Mortis Trials Buffs from the talent tree, filtered by class and skills. Fixes the unclosable picker and lingering button when disabled in DMF, with clean disable/re-enable behavior and saved selections preserved.",
+  "file_category": "Main Files",
+  "archive_root": "MortisBuffManager/",
+  "manual_extract_to": "Darktide/mods/"
+}

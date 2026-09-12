@@ -1,0 +1,63 @@
+# 死灵试炼 Buff 管理器
+
+死灵试炼 Buff 管理器以 SoloPlay 为前提，同时支持 Realms 联机会话。通过天赋树界面选择 Buff，Realms 中的选择上限与校验规则由房主控制。本模组独立加载并保存设置，无需天赋点管理器。
+
+## 功能
+
+- 在天赋树界面的列表中选择原版死灵试炼 Buff。
+- 根据原版 Buff 池、流派、职业、技能与天赋要求筛选可用项。
+- 选择上限可设为 1–64 项，默认 32 项。
+- 分别设置本地和 Realms 作用域，Realms 客机受主机规则约束。
+- 支持英文、简体中文、繁体中文，Buff 名称使用游戏翻译。
+
+任务本身为死灵试炼时，开启预配置 Buff 也会关闭该局的原版奖励抽选。
+
+总开关默认关闭，其下本地和 Realms 作用域默认开启。选择上限指选中的条目数量，不代表单个 Buff 可以无限叠层，也不保证每种配装都能使用全部 Buff。
+
+## 依赖与安装
+
+需要 Darktide Mod Loader、Darktide Mod Framework 和 SoloPlay。使用 Realms 联机时还需安装 Realms，SoloPlay 仍为前提。天赋点管理器和两款浩劫模组均为可选配套。
+
+## Vortex 安装
+
+- 退出游戏，在 Vortex 中管理 Darktide，并先安装上方列出的依赖。
+- 从本模组 Files 页面下载安装 ZIP，在 Vortex 中选择 Install From File（从文件安装）导入，然后启用模组并点击 Deploy Mods（部署模组）。
+- 打开 Load Order（加载顺序），启用 MortisBuffManager 并将其排在 SoloPlay 后，保留其他模组。
+- 启动游戏，进入“Mod 选项 → 死灵试炼 Buff 管理器”，开启总开关以使用预配置 Buff。
+
+## 手动安装
+
+- 退出游戏，并按各依赖的说明完成前置安装。
+- 打开 Darktide 游戏目录；Steam 中可通过“属性 → 已安装文件 → 浏览”进入。
+- 进入游戏的 mods 文件夹，将本 ZIP 内的 MortisBuffManager 文件夹解压到此处，确认最终路径为 mods/MortisBuffManager。
+- 编辑 mods/mod_load_order.txt，在 SoloPlay 后另起一行加入 MortisBuffManager，保留其他条目。
+- 保存文件并启动游戏，进入“Mod 选项 → 死灵试炼 Buff 管理器”并开启总开关。
+
+使用拆分版前请停用旧的 TalentAndMortisManager。本模组加载游戏自身提供的死灵资源，不在包内分发提取的游戏美术素材。
+
+## 框架开关
+
+Darktide Mod Framework 提供模组启用／禁用开关。本模组另有默认关闭的功能总开关，两者都开启时功能才会生效。关闭框架开关会停止更新并执行清理，不改动已保存的功能设置。
+
+## 使用方法
+
+打开 Mod 选项 → 死灵试炼 Buff 管理器，开启自定义 Buff，选择本地或 Realms 作用域并设置上限。进入天赋树，用死灵 Buff 选择控件勾选符合资格的条目。更换职业、技能、天赋或流派后，应重新检查可用列表。
+
+Realms 客机需要相同模组才能提交自己的选择，最终接受的条目由主机上限和校验规则决定。队伍应使用相同版本。
+
+## 限制与兼容性
+
+在灵能室、本地单人等受支持场景，以及由主机授权的 Realms 会话中生效。不承诺在官方匹配中获得 Buff 或永久进度。
+
+资格筛选遵循可用的原版数据，不保证所有 Buff 都能同时组合。替换死灵选择、任务 Buff 管理或相同天赋树控件的模组可能冲突。
+
+已通过代码与模拟检查，本版尚未新增实机测试。更改游戏语言后请重启。
+
+## 2.0.1 更新
+
+- 完善英文、简体中文、繁体中文设置文本。
+- 说明文档移入自身目录，消除四个独立 Vortex 包之间同名根目录说明文件造成的冲突。
+
+## 致谢
+
+从原 TalentAndMortisManager 拆分。Solo Play 与 Realms：deluxghost。原版死灵系统、Buff 定义及引用素材：Fatshark。游戏源码查阅：Aussiemon/Darktide-Source-Code。本模组为独立社区项目。

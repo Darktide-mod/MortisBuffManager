@@ -1,0 +1,10 @@
+3.1.2
+- Each post-opening progress or competition round now grants one remaining route Buff automatically and offers a public/class Buff choice. Route exhaustion no longer delays or stops those choices.
+- Progress uses a fixed opening route choice plus nine paired rounds, for up to 19 Buffs; its DMF and Realms number controls are disabled.
+- The 0-64 slider and numeric input set preselection points or competition reward rounds according to mode. Competition includes the opening route choice; automatic route grants do not consume another round.
+- Competition stops at the round quota, offers two choices when two Buffs remain, automatically grants the last candidate, and shows no picker for an empty pool.
+- Queued rounds grant their route Buff only when they start. Every interactive choice receives a fresh 60 seconds; retries and lowered/restored limits do not duplicate route grants.
+- Separate round quotas from applied Buff counts, including Realms snapshots and talent-tree counters. Lowered quotas restrict rewards by their original round and retain history for restoration.
+- Realms reward protocol updated to v6. Update the host and all participating guests together; older reward protocols are incompatible.
+- Stable release for Nexus Main Files. Remove the temporary Debug controls, input/transport diagnostic collection and test-only instructions; clear previously enabled diagnostic settings. Preserve the Ctrl+number input fix.
+- Verified with local Lua/native-source checks, including disabled/hidden diagnostics, stale diagnostic settings, 128 character/Blitz/combat configurations, reward queues, two/one/zero candidates, large reward counts, guest reconnection, DMF/Realms controls and native Buff application adapters. Live gameplay and multiplayer verification is still needed.

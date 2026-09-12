@@ -1,0 +1,410 @@
+{
+  "en_MortisBuffManager": [
+    {
+      "key": "settings_title",
+      "x": 740,
+      "y": 60,
+      "w": 1000,
+      "h": 55,
+      "text": "Mortis Trials Buff Manager",
+      "font": 34,
+      "color": "gold"
+    },
+    {
+      "key": "settings_description",
+      "x": 740,
+      "y": 125,
+      "w": 1000,
+      "h": 70,
+      "text": "Independent mortis buffs for local and Realms sessions.",
+      "font": 21,
+      "color": "muted"
+    },
+    {
+      "key": "filter",
+      "x": 140,
+      "y": 180,
+      "w": 500,
+      "h": 44,
+      "text": "Search mods",
+      "fill": true,
+      "color": "muted"
+    },
+    {
+      "key": "category_MortisBuffManager",
+      "x": 140,
+      "y": 236,
+      "w": 500,
+      "h": 64,
+      "text": "Mortis Trials Buff Manager",
+      "font": 24,
+      "fill": true,
+      "selected": true
+    },
+    {
+      "key": "group",
+      "x": 740,
+      "y": 220,
+      "w": 1000,
+      "h": 50,
+      "text": "Mortis Trials server rules",
+      "font": 27,
+      "color": "gold"
+    },
+    {
+      "key": "enable_custom_mortis_buffs_label",
+      "x": 780,
+      "y": 290,
+      "w": 460,
+      "h": 64,
+      "text": "Enable preconfigured Mortis rewards",
+      "font": 23
+    },
+    {
+      "key": "enable_custom_mortis_buffs",
+      "x": 1240,
+      "y": 290,
+      "w": 500,
+      "h": 64,
+      "text": "Disabled",
+      "font": 24,
+      "checkbox": true,
+      "selected": false,
+      "fill": true
+    },
+    {
+      "key": "enable_local_mortis_buffs_label",
+      "x": 780,
+      "y": 364,
+      "w": 460,
+      "h": 64,
+      "text": "Apply selected Buffs to me",
+      "font": 23
+    },
+    {
+      "key": "enable_local_mortis_buffs",
+      "x": 1240,
+      "y": 364,
+      "w": 500,
+      "h": 64,
+      "text": "Enabled",
+      "font": 24,
+      "checkbox": true,
+      "selected": true,
+      "fill": true
+    },
+    {
+      "key": "enable_realms_mortis_buffs_label",
+      "x": 780,
+      "y": 438,
+      "w": 460,
+      "h": 64,
+      "text": "Allow Realms guests to select Buffs",
+      "font": 23
+    },
+    {
+      "key": "enable_realms_mortis_buffs",
+      "x": 1240,
+      "y": 438,
+      "w": 500,
+      "h": 64,
+      "text": "Enabled",
+      "font": 24,
+      "checkbox": true,
+      "selected": true,
+      "fill": true
+    },
+    {
+      "key": "mortis_buff_limit_label",
+      "x": 780,
+      "y": 512,
+      "w": 460,
+      "h": 64,
+      "text": "Maximum selected Buffs per player",
+      "font": 23
+    },
+    {
+      "key": "mortis_buff_limit",
+      "x": 1240,
+      "y": 512,
+      "w": 500,
+      "h": 64,
+      "text": "32",
+      "font": 26,
+      "center": true,
+      "fill": true
+    }
+  ],
+  "zh-cn_MortisBuffManager": [
+    {
+      "key": "settings_title",
+      "x": 740,
+      "y": 60,
+      "w": 1000,
+      "h": 55,
+      "text": "死灵试炼 Buff 管理器",
+      "font": 34,
+      "color": "gold"
+    },
+    {
+      "key": "settings_description",
+      "x": 740,
+      "y": 125,
+      "w": 1000,
+      "h": 70,
+      "text": "独立的死灵试炼 Buff 管理器，支持本地及 Realms 会话。",
+      "font": 21,
+      "color": "muted"
+    },
+    {
+      "key": "filter",
+      "x": 140,
+      "y": 180,
+      "w": 500,
+      "h": 44,
+      "text": "搜索模组",
+      "fill": true,
+      "color": "muted"
+    },
+    {
+      "key": "category_MortisBuffManager",
+      "x": 140,
+      "y": 236,
+      "w": 500,
+      "h": 64,
+      "text": "死灵试炼 Buff 管理器",
+      "font": 24,
+      "fill": true,
+      "selected": true
+    },
+    {
+      "key": "group",
+      "x": 740,
+      "y": 220,
+      "w": 1000,
+      "h": 50,
+      "text": "死灵试炼服务端规则",
+      "font": 27,
+      "color": "gold"
+    },
+    {
+      "key": "enable_custom_mortis_buffs_label",
+      "x": 780,
+      "y": 290,
+      "w": 460,
+      "h": 64,
+      "text": "启用死灵试炼预配置奖励",
+      "font": 23
+    },
+    {
+      "key": "enable_custom_mortis_buffs",
+      "x": 1240,
+      "y": 290,
+      "w": 500,
+      "h": 64,
+      "text": "关闭",
+      "font": 24,
+      "checkbox": true,
+      "selected": false,
+      "fill": true
+    },
+    {
+      "key": "enable_local_mortis_buffs_label",
+      "x": 780,
+      "y": 364,
+      "w": 460,
+      "h": 64,
+      "text": "对自己应用所选 Buff",
+      "font": 23
+    },
+    {
+      "key": "enable_local_mortis_buffs",
+      "x": 1240,
+      "y": 364,
+      "w": 500,
+      "h": 64,
+      "text": "开启",
+      "font": 24,
+      "checkbox": true,
+      "selected": true,
+      "fill": true
+    },
+    {
+      "key": "enable_realms_mortis_buffs_label",
+      "x": 780,
+      "y": 438,
+      "w": 460,
+      "h": 64,
+      "text": "允许 Realms 客机自选 Buff",
+      "font": 23
+    },
+    {
+      "key": "enable_realms_mortis_buffs",
+      "x": 1240,
+      "y": 438,
+      "w": 500,
+      "h": 64,
+      "text": "开启",
+      "font": 24,
+      "checkbox": true,
+      "selected": true,
+      "fill": true
+    },
+    {
+      "key": "mortis_buff_limit_label",
+      "x": 780,
+      "y": 512,
+      "w": 460,
+      "h": 64,
+      "text": "每名玩家最多自选 Buff 数",
+      "font": 23
+    },
+    {
+      "key": "mortis_buff_limit",
+      "x": 1240,
+      "y": 512,
+      "w": 500,
+      "h": 64,
+      "text": "32",
+      "font": 26,
+      "center": true,
+      "fill": true
+    }
+  ],
+  "zh-tw_MortisBuffManager": [
+    {
+      "key": "settings_title",
+      "x": 740,
+      "y": 60,
+      "w": 1000,
+      "h": 55,
+      "text": "死靈試煉 Buff 管理器",
+      "font": 34,
+      "color": "gold"
+    },
+    {
+      "key": "settings_description",
+      "x": 740,
+      "y": 125,
+      "w": 1000,
+      "h": 70,
+      "text": "獨立的死靈試煉 Buff 管理器，支援本地及 Realms 會話。",
+      "font": 21,
+      "color": "muted"
+    },
+    {
+      "key": "filter",
+      "x": 140,
+      "y": 180,
+      "w": 500,
+      "h": 44,
+      "text": "搜尋模組",
+      "fill": true,
+      "color": "muted"
+    },
+    {
+      "key": "category_MortisBuffManager",
+      "x": 140,
+      "y": 236,
+      "w": 500,
+      "h": 64,
+      "text": "死靈試煉 Buff 管理器",
+      "font": 24,
+      "fill": true,
+      "selected": true
+    },
+    {
+      "key": "group",
+      "x": 740,
+      "y": 220,
+      "w": 1000,
+      "h": 50,
+      "text": "死靈試煉服務端規則",
+      "font": 27,
+      "color": "gold"
+    },
+    {
+      "key": "enable_custom_mortis_buffs_label",
+      "x": 780,
+      "y": 290,
+      "w": 460,
+      "h": 64,
+      "text": "啟用死靈試煉預配置獎勵",
+      "font": 23
+    },
+    {
+      "key": "enable_custom_mortis_buffs",
+      "x": 1240,
+      "y": 290,
+      "w": 500,
+      "h": 64,
+      "text": "關閉",
+      "font": 24,
+      "checkbox": true,
+      "selected": false,
+      "fill": true
+    },
+    {
+      "key": "enable_local_mortis_buffs_label",
+      "x": 780,
+      "y": 364,
+      "w": 460,
+      "h": 64,
+      "text": "對自己應用所選 Buff",
+      "font": 23
+    },
+    {
+      "key": "enable_local_mortis_buffs",
+      "x": 1240,
+      "y": 364,
+      "w": 500,
+      "h": 64,
+      "text": "開啟",
+      "font": 24,
+      "checkbox": true,
+      "selected": true,
+      "fill": true
+    },
+    {
+      "key": "enable_realms_mortis_buffs_label",
+      "x": 780,
+      "y": 438,
+      "w": 460,
+      "h": 64,
+      "text": "允許 Realms 客機自選 Buff",
+      "font": 23
+    },
+    {
+      "key": "enable_realms_mortis_buffs",
+      "x": 1240,
+      "y": 438,
+      "w": 500,
+      "h": 64,
+      "text": "開啟",
+      "font": 24,
+      "checkbox": true,
+      "selected": true,
+      "fill": true
+    },
+    {
+      "key": "mortis_buff_limit_label",
+      "x": 780,
+      "y": 512,
+      "w": 460,
+      "h": 64,
+      "text": "每名玩家最多自選 Buff 數",
+      "font": 23
+    },
+    {
+      "key": "mortis_buff_limit",
+      "x": 1240,
+      "y": 512,
+      "w": 500,
+      "h": 64,
+      "text": "32",
+      "font": 26,
+      "center": true,
+      "fill": true
+    }
+  ]
+}

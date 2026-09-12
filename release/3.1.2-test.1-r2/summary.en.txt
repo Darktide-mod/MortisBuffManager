@@ -1,0 +1,1 @@
+Requires SoloPlay; supports Realms. Preselect native Mortis Buffs, earn up to 10 rewards through map progress, or gain personal kill rewards. Global host rules, route selection, automatic route Buffs, three-way choices and synchronized guest status.

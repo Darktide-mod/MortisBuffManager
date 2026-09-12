@@ -1,0 +1,25 @@
+{
+  "release_id": "3.0.0",
+  "status": "passed",
+  "archives": [
+    {
+      "mod": "MortisBuffManager",
+      "version": "3.0.0",
+      "file": "files/MortisBuffManager-3.0.0.zip",
+      "bytes": 57375,
+      "entries": 17,
+      "root": "MortisBuffManager/",
+      "nested_archives": 0
+    }
+  ],
+  "install_path_conflicts": 0,
+  "ui_images": 15,
+  "english_ui_images": 5,
+  "vortex_installer": {
+    "status": "passed",
+    "mods": 1,
+    "installed_paths": 17,
+    "unexpected_root_install_warnings": 0
+  },
+  "nexus_upload_performed": false
+}

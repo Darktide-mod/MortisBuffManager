@@ -1,0 +1,1 @@
+Native and DIY Mortis talents for SoloPlay and Realms. Browse Available, DIY, Selected and Unavailable tabs with counts, native categories, search and mouse-wheel scrolling. Includes preselection, independent pools, host DIY permissions and weighted progress or kill rewards.

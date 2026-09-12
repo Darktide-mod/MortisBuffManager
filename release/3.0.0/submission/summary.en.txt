@@ -1,0 +1,1 @@
+Requires SoloPlay; supports Realms. Choose native Mortis Buffs before a mission, draft by map progress, or earn personal kill rewards. Three global modes, a shared 0–64 cap, non-blocking Ctrl+1/2/3 choices, queued 60-second picks, Tab Buffs and host-visible deployment status.

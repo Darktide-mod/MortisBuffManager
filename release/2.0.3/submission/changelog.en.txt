@@ -1,0 +1,20 @@
+2.0.3
+
+- Fix the unclosable empty picker and lingering entry when opening the talent tree with this mod disabled in DMF. Native widgets start visible, so picker content now defaults hidden and all passes check the framework state.
+- Disabling an open picker clears its controls, restores the native summary button and releases resources. Stale button callbacks and late resource callbacks cannot reopen it or change selections.
+- Re-enabling restores the entry even if the talent tree opened while disabled. Both Close and Esc work. Saved Buff selections and native effects are unchanged.
+- Reproduce the old failure and verify the fix with real DMF toggling and native UIWidget.init. Retain the previous button-material fix; live-game retesting is still needed.
+
+Version 2.0.2
+
+- Fixed the talent-page button resource dependency that could crash the engine when the inventory page unloaded, including transitions in the Realms preparation screen.
+- The Mortis entry, seven family buttons, Clear and Close now use the talent view's native terminal-button materials. The entry is safe to draw after inventory-page resources unload, even before opening the picker.
+- Preserved button sizes and 20-point labels, existing selections and native Buff behavior. No additional inventory package is kept resident.
+- Added regression checks using native widget and button definitions, reproducing the old dependency and checking the new material set, repeated open/close cycles, callbacks and all three languages. The proprietary renderer has not been tested live.
+- Fully exit and restart the game after updating; use the same version across your Realms group.
+
+Version 2.0.1
+
+- Completed English, Simplified Chinese and Traditional Chinese settings text.
+- Moved documentation into this mod's own folder to remove the shared README conflict between the four individual Vortex packages.
+
