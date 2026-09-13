@@ -1,3 +1,9 @@
+4.6.3
+- Fix file discovery failing with a FindFirstFileW structure conversion error when another mod loads first.
+- Isolate Windows FFI bindings, including the shared HCM/Mortis DIY reader and HED preset reader. No load-order workaround is required for the updated managers.
+- Verify real Unicode file and package I/O under every manager load order, pre-existing foreign declarations and repeated module loads.
+- Restart the game after updating to reload any mod that failed during startup. Gameplay and resource payloads are unchanged.
+
 4.6.2
 - Deliver the Mortis catalog update separately from HCM: four counted Available/DIY/Selected/Unavailable tabs, native Public/Class/Route categories, actual build and route eligibility, and native/DIY selection cleanup after a family change.
 - Browse talents and descriptions with independent mouse-wheel scrollbars. Remove the old All/Native tabs and talent pagination; retained legacy filter values now reset to Available.
